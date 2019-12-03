@@ -1,0 +1,21 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "Node API Gateway for various Microservices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "npm run dev"
+  },
+  "author": "Victor Ewere",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  }
+}
